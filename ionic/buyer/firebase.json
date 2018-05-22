@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "public": "cd www/templates",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "database": {
+    "rules": "cd www/db"
+  }
+}

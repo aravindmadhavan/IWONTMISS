@@ -1,0 +1,26 @@
+<ion-view style="" class=" " id="page10" title="Orders">
+    <ion-content class="has-header" padding="true">
+
+
+      <ion-list ng-repeat="item in orders">
+
+        <ion-item class="item-thumbnail-left" >
+
+          <img  ng-src="{{'img/fk/'+ item.product_image +'.jpg'}}" >
+
+          <a class="badge badge-balanced" style="position: absolute;right:0;" >{{item.status}}</a>
+
+          <h4> {{item.product_name}} </h4>
+          <p>Qty: {{item.item_qty}}  Price: &#8377; {{item.product_price}}</p>
+          <br>
+          <h3>Buyer Details</h3>
+          <p>Name   : Aravind</p>
+          <p>Phone  : 9876543210</p>
+          <p>Address:10,lnp east street,madurai-625001</p>
+        </ion-item>
+
+      </ion-list>
+
+
+    </ion-content>
+</ion-view>

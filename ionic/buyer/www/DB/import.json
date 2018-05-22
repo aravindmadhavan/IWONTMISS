@@ -1,0 +1,75 @@
+{
+  "category" : {
+    "cat01" : "Fruits",
+    "cat02" : "Vegetables"
+  },
+  "featured" : {
+    "item1" : "slide_1",
+    "item2" : "slide_2"
+  },
+  "menu" : {
+    "item1" : {
+      "available" : true,
+      "category" : "cat01",
+      "description" : "item1 description",
+      "image" : "apple_img",
+      "name" : "Apple",
+      "price" : 130,
+      "stock" : 5
+    },
+    "item2" : {
+      "available" : true,
+      "category" : "cat01",
+      "description" : "item2 description",
+      "image" : "banana_img",
+      "name" : "Banana",
+      "price" : 65,
+      "stock" : 100
+    },
+    "item3" : {
+      "available" : true,
+      "category" : "cat02",
+      "description" : "item3 description",
+      "image" : "carrot_img",
+      "name" : "Carrot",
+      "price" : 40,
+      "stock" : 100
+    },
+    "item4" : {
+      "available" : true,
+      "category" : "cat02",
+      "description" : "item4 description",
+      "image" : "bhindi_img",
+      "name" : "Bhindi",
+      "price" : 45,
+      "stock" : 100
+    },
+    "item5" : {
+      "available" : true,
+      "category" : "cat01",
+      "description" : "item5 description",
+      "image" : "orange_img",
+      "name" : "Orange",
+      "price" : 70,
+      "stock" : 100
+    },
+    "item6" : {
+      "available" : true,
+      "category" : "cat02",
+      "description" : "item6 description",
+      "image" : "potato_img",
+      "name" : "Potato",
+      "price" : 40,
+      "stock" : 100
+    },
+    "item8" : {
+      "available" : true,
+      "category" : "cat01",
+      "description" : "item8 description",
+      "image" : "watermelon_img",
+      "name" : "Water Melon",
+      "price" : 50,
+      "stock" : 100
+    }
+  }
+}
